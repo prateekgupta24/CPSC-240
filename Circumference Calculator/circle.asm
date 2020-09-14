@@ -57,7 +57,6 @@ circumferenceoutputformat db "The circumference of a circle with this radius is 
 remainderformat db "The remainder is %ld", 10, 0
 farewell db "The integer part of the area will be returned to the main program.  Please enjoy your circles", 10, 0
 
-;= 0x%016lx
 
 segment .bss                                      ;Uninitialized data are declared in this segment
 
