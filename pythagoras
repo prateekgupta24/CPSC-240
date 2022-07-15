@@ -1,0 +1,46 @@
+/******************************************************************************************************************************
+Program name: "Right Triangle Area Calculator".  This program calculates the area of a right triangle.
+Copyright ©️ All Rights Reserved 2021                                               *
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License  *
+version 3 as published by the Free Software Foundation.                                                                    *
+;his program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied         *
+Warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     *
+A copy of the GNU General Public License v3 is available here:  <https://www.gnu.org/licenses/>.                           *
+*****************************************************************************************************************************
+
+
+
+Program information
+  Program name: Circumference Calculator
+  Programming languages: One modules in C and one module in X86
+  Date program began:     2021-Sept-06
+  Date program completed: 2020-Sept-09
+  Files in this program: pythagoras.c, triangle.asm, r.sh
+  Status: Complete.  No errors found after extensive testing.
+
+Purpose
+  To calculate the area of a right triangle
+
+This file
+  File name: pythagoras.c
+  Language: C
+  Assemble: gcc -c -g -Wall -m64 -no-pie -o pythagoras.o pythagoras.c -std=c11
+  Link: gcc -m64 -no-pie -o math.out -std=c11 triangle.o pythagoras.o */
+
+//===== Begin code area ===========================================================================================================
+
+#include <stdio.h>
+#include <stdint.h>
+
+long int triangle();
+
+int main()
+{
+ long int result_code = -999;
+ printf("Welcome to the Right Triangles program maintained by a.\n");
+ printf("If errors are discovered please report them to  for a quick fix.\n");
+ result_code = triangle();
+ printf("The main function received this number ",result_code, " and plans to keep it");
+ printf("An integer zero will be returned to the operating system.  Bye.\n");
+ return 0;
+}//End of main
