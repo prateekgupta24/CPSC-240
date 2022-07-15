@@ -1,14 +1,11 @@
 # CPSC-240-Computer-Organization-Assembly-Language
 Preface
 
-In the previous assignment you learned to manage the I/O of arrays of char.  In this assignment you learn how to manage the I/O of 64-bit float numbers.
-
-
+In this assignment you learn how to manage the I/O of 64-bit float numbers.
 
 Basic requirements
 
 Make a program satisfying the structure given in the diagram that follows.   The application purpose of the program is that you input  the lengths of two sides of a right triangle and your program outputs some computed values, namely, the area and the length of the hypotenuse.
-
 The academic purpose of this program is that you experience how to input a float in assembly and how to output a float number with proper formatting.  There are no integers in this assignment.
 
 
@@ -26,35 +23,27 @@ The file r.sh is written in bash.
 
 Sample dialog with the program
 
-Welcome to the Right Triangles program maintained by Juan Diaz.
+Welcome to the Right Triangles program maintained by Juan Diaz. //C
 
-If errors are discovered please report them to Juan Diaz at juan@columbia.com  for a quick fix.  At Columbia Software the customer comes first.
+If errors are discovered please report them to Juan Diaz at juan@columbia.com  for a quick fix.  At Columbia Software the customer comes first. //C
 
-Please enter your last name:  Finkelstein
+Please enter your last name:  Finkelstein //x86
 
-Please enter your title (Mr, Ms, Nurse, Engineer, etc):  Fishmonger
+Please enter your title (Mr, Ms, Nurse, Engineer, etc):  Fishmonger//x86
 
-Please enter the sides of your triangle separated by ws:  3.95   4.61
+Please enter the sides of your triangle separated by ws:  3.95   4.61 //x86
 
-The area of this triangle is 9.10475 square units
+The area of this triangle is 9.10475 square units //x86
 
-The length of the hypotenuse is 6.070798959 units.
+The length of the hypotenuse is 6.070798959 units. //x86
 
-Please enjoy your triangles Fishmonger Finkelstein.
+Please enjoy your triangles Fishmonger Finkelstein. //x86
 
-The main function received this number  6.0708 and plans to keep it.
+The main function received this number  6.0708 and plans to keep it. //C
 
-An integer zero will be returned to the operating system.  Bye.
+An integer zero will be returned to the operating system.  Bye. //C
 
 ------------------------------------------------------------------------------------------------------------
-
-Legend.  The text in light blue is output from the welcome pythagoras module written in C.
-
-The text in yellow is output from the triangle module (X86).
-
-The text in pink is input from the keyboard.
-
-
 
 The requirements of this program
 
